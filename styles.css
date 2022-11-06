@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px;
+}
+.container {
+  display: flex;
+}
+.flex-item1 {
+  height: 100px;
+  margin: 5px;
+  flex: 1;
+  border: 1px solid green;
+  border-radius: 3px;
+}
+.flex-item2 {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  flex: 2 0 auto;
+  border: 1px solid green;
+  border-radius: 3px;
+  padding-top: 10px;
+  text-align: center;
+}
